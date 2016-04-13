@@ -1,0 +1,46 @@
+div(class="footer-home")
+	div(class="container")
+		div(class="row")
+			div(class="col s3 slide-left")
+				h3 Site Map
+				ul
+					li
+						<a href="#">Home</a>
+					li
+						<a href="#">About Us</a>
+					li
+						<a href="#">Packages and Menu</a>
+					li
+						<a href="#">Gallery</a>
+					li
+						<a href="#">Contact Us</a>
+
+			div(class="col s5 slide-left")
+				h3 Contact Us
+				ul
+					li Phone: <a href="tel:09254958268">09254958268</a>
+					li Email: <a href="mailto:ayenscateringservices@gmail.com">ayenscateringservices@gmail.com</a>
+					li Address 1: <a>lipata, Minglanilla, Cebu</a>
+					li Address 2: <a>Mantalongon, Barili, Cebu</a>
+
+			div(class="col s4 slide-right")
+				h3(class="how") How Can We Help You?
+				p For inquiries, contact our agents so that we can help you plan your dream event
+				a(href="#" class="waves-effect waves-light btn") CONTACT US
+
+footer(id="colophon" class="site-footer" role="contentinfo")
+	div(class="container")
+		p All rights reserved 2016. | Designed by: <a href="http://webquisites.com" target="_blank">Webquisites</a>
+
+!= js()
+
+<script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+<script src="js/materialize.js"></script>
+<script src="js/init.js"></script>
+script.
+	$(document).ready(function(){
+	  $('.slider').slider({full_width: true});
+	});
+	$(document).ready(function(){
+	  $('.parallax').parallax();
+	});
