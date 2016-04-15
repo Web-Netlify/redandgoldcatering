@@ -44,7 +44,7 @@ html
 			div(class="container")
 				ul(class="right hide-on-med-and-down")
 					li
-						a(class="active", href="home.html") <i class="fa fa-home">&nbsp;</i>Home
+						a(href="home.html") <i class="fa fa-home">&nbsp;</i>Home
 					li
 						a(href="about-us.html") <i class="fa fa-users">&nbsp;</i>About Us
 					li
@@ -52,11 +52,11 @@ html
 					li
 						a(href="gallery.html") <i class="fa fa-camera-retro">&nbsp;</i>Gallery
 					li
-						a(href="contact-us.html") <i class="fa fa-phone">&nbsp;</i>Contact Us
+						a(class="active", href="contact-us.html") <i class="fa fa-phone">&nbsp;</i>Contact Us
 
 				ul(id="nav-mobile", class="side-nav")
 					li
-						a(class="active", href="home.html") <i class="fa fa-home">&nbsp;</i>Home
+						a(href="home.html") <i class="fa fa-home">&nbsp;</i>Home
 					li
 						a(href="about-us.html") <i class="fa fa-users">&nbsp;</i>About Us
 					li
@@ -64,6 +64,19 @@ html
 					li
 						a(href="gallery.html") <i class="fa fa-camera-retro">&nbsp;</i>Gallery
 					li
-						a(href="contact-us.html") <i class="fa fa-phone">&nbsp;</i>Contact Us
+						a(class="active", href="contact-us.html") <i class="fa fa-phone">&nbsp;</i>Contact Us
 
 				a(href="#", data-activates="nav-mobile", class="button-collapse") <i class="material-icons">menu</i>
+
+div(class="thank-you")
+	div(class="parallax-container")
+		div(class="parallax") <img src="img/thankyou.jpg">
+		div(class="container")
+			<i class="fa fa-check-circle" aria-hidden="true"></i>
+			h2 Thank you!
+			p Your submission is received. We will contact you soon!
+			div
+				a(href="home.html", class="waves-effect waves-light btn") Take me home!
+		
+
+include footer
